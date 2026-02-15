@@ -1,4 +1,5 @@
 {
-  "buildCommand": "mkdir -p .vercel/output/static && cp -r frontend/* .vercel/output/static/",
-  "installCommand": "echo 'No dependencies to install'"
+  "buildCommand": "bash build.sh",
+  "installCommand": "echo 'No dependencies to install'",
+  "outputDirectory": ".vercel/output/static"
 }
