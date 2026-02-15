@@ -1,5 +1,0 @@
-{
-  "buildCommand": "bash build.sh",
-  "installCommand": "echo 'No dependencies to install'",
-  "outputDirectory": ".vercel/output/static"
-}
