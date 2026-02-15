@@ -1,0 +1,21 @@
+# Python backend (not needed for frontend deployment)
+python-ai-service/
+java-backend/
+
+# Development files
+.venv/
+.vscode/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Database
+database/
+
+# Documentation
+docs/
+
+# Git
+.git/
+.gitignore
