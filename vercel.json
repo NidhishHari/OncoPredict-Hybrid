@@ -1,8 +1,4 @@
 {
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/frontend/$1"
-    }
-  ]
+  "buildCommand": "mkdir -p .vercel/output/static && cp -r frontend/* .vercel/output/static/",
+  "installCommand": "echo 'No dependencies to install'"
 }
