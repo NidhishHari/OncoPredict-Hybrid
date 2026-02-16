@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Test Interactive Elements</title>
+    <script>
+        // Simple test to verify event listeners are working
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('DOM Content Loaded');
+
+            const btn = document.getElementById('test-btn');
+            if (btn) {
+                btn.addEventListener('click', () => {
+                    alert('Button clicked! Event listeners are working.');
+                });
+                console.log('Event listener added to test button');
+            } else {
+                console.error('Test button not found');
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <h1>Test Page</h1>
+    <button id="test-btn">Click Me</button>
+    <p>Open the browser console (F12) to see if event listeners are registered.</p>
+</body>
+
+</html>
